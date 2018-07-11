@@ -67,6 +67,16 @@ const ModalCard = AnimCard.extend`
   z-index: 10;
   margin-bottom: 100px;
   text-align: center;
+  @media (max-width: 860px) {
+    width: 50vw;
+    margin-bottom: 30px;
+  }
+
+  @media (max-width: 860px) and (orientation: landscape) {
+    width: 40vw;
+    margin-bottom: 30px;
+  }
+
   @media (max-width: 460px) {
     width: 90vw;
   }

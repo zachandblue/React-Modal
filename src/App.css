@@ -4,3 +4,9 @@
   margin: auto;
   margin-top: 40px;
 }
+
+@media (max-width: 860px) and (orientation: landscape) {
+  .App {
+    margin-top: 0;
+  }
+}

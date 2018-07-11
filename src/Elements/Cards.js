@@ -7,7 +7,7 @@ export const Card = styled.div`
   padding: 15px;
 
   width: 70vw;
-  max-width: 600px;
+  max-width: 590px;
   margin: auto;
   margin-top: 90px;
   color: ${colors.black};
@@ -17,6 +17,11 @@ export const Card = styled.div`
   })};
   &:hover {
     ${elevation[5]};
+  }
+  @media (max-width: 860px) {
+    width: 90vw;
+    margin-top: 0;
+    box-shadow: none;
   }
   @media (max-width: 460px) {
     width: 100vw;
